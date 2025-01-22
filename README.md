@@ -1,5 +1,5 @@
 # Objects
-# Goals
+## Goals
 * Store user input as a variable from a prompt
 * Split the string and convert to an array
 * Create a function 
