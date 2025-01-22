@@ -7,12 +7,12 @@ const flavorFunction = (array) => {
   // create an empty object
   const customerOrder = {};
   // loop though the array
-  for (let i = 0; i < flavorArray.length; i++) {
+  for (let i = 0; i < array.length; i++) {
     // if key is undefined
-    if (!customerOrder[flavorArray[i]]) {
-      customerOrder[flavorArray[i]] = 1; // key: 1
+    if (!customerOrder[array[i]]) {
+      customerOrder[array[i]] = 1; // key: 1
     } else {
-      customerOrder[flavorArray[i]]++; // key: [value + 1]
+      customerOrder[array[i]]++; // key: [value + 1]
     }
   }
   console.log(customerOrder);
